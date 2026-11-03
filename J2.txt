@@ -1,0 +1,1 @@
+powershell nodod objektus kuri ir skaitliski rekvezīti,ļaujot uzreiz salīdzināt datus )piemēram 200mb),savukārt BASH plūst teksts,kas prasa sarežģitāku kolonnu sadalīšanu un datu konvertēšanu.
