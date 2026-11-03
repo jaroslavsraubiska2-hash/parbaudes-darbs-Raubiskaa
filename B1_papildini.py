@@ -20,6 +20,10 @@ with open("sistema.log", encoding="utf-8") as f:
                 skaits[serviss] = skaits[serviss] + 1
             else:
                 skaits[serviss] = 1
-
+                with opem ("C:\\Users\\A250063JR\\Dowloads\\PU_PD1-v2-main\\PU_PD1-v2-main\\servisi.csv)", mode="w", newline="") as f:
+                    writer = csv.writer(serviss.csv, delimiter =";")
+                    writer.writerow(["serviss","kludas"])
+                    for serviss, kludas in skaits.items()
+                        writer.writerow([])
 # TODO: ieraksti skaits saturu failā servisi.csv
 # Divas kolonnas: Serviss un Kļūdas
