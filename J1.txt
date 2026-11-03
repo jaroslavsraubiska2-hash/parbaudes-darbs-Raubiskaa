@@ -1,0 +1,5 @@
+Pirmais ko es izdrītu būtu atvertu failu un apskatītu log faila datumu un laika formatu.
+Otrais ko es izdaritu butu atlasitu tās rindas,kurās ir atslegvārds.
+Trešais ko es izdarītu būtu no katras atlasitas rindas panemtu stundas  daļu.
+Ceturtais ko es izdaritu būtu saskaititu katrai stundai kludu skaitu no 00-23.
+Piektais ko es izdarītu būtu atrastu stundu ar lielāko kļudu skaitu.
