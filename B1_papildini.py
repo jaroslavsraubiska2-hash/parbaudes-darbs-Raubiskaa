@@ -24,6 +24,9 @@ with open("sistema.log", encoding="utf-8") as f:
                     writer = csv.writer(serviss.csv, delimiter =";")
                     writer.writerow(["serviss","kludas"])
                     for serviss, kludas in skaits.items()
-                        writer.writerow([])
+                        writer.writerow(["serviss",""kludas])
+                        print()
+
+
 # TODO: ieraksti skaits saturu failā servisi.csv
 # Divas kolonnas: Serviss un Kļūdas
